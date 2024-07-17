@@ -14,7 +14,7 @@ SECRET_KEY = 'django-insecure-8+nd#qw0^tp3n-g7%my5v868sfu7zu2^e)(ov_fw0#6wj+=otp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vital-bluebird-commonly.ngrok-free.app', '127.0.0.1']
+ALLOWED_HOSTS = ['*', '.vercel.app', '.now.sh']
 
 
 # Application definition
